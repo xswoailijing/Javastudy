@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-map>
+	<servlet>
+		<servlet-name>login</servlet-name>
+		<servlet-class>page.Login</servlet-class>
+	</servlet>
+	<urlmap>
+		<servlet-name>login</servlet-name>
+		<url-pattern>/log</url-pattern>
+	</urlmap>
+		<urlmap>
+		<servlet-name>login</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</urlmap>
+
+	<servlet>
+		<servlet-name>reg</servlet-name>
+		<servlet-class>page.Reg</servlet-class>
+	</servlet>
+	<urlmap>
+		<servlet-name>reg</servlet-name>
+		<url-pattern>/reg</url-pattern>
+	</urlmap>
+
+	<servlet>
+		<servlet-name>home</servlet-name>
+		<servlet-class>page.Home</servlet-class>
+	</servlet>
+	<urlmap>
+		<servlet-name>home</servlet-name>
+		<url-pattern>/</url-pattern>
+	</urlmap>
+
+	<servlet>
+		<servlet-name>admin</servlet-name>
+		<servlet-class>page.Admin</servlet-class>
+	</servlet>
+	<urlmap>
+		<servlet-name>admin</servlet-name>
+		<url-pattern>/admin</url-pattern>
+	</urlmap>
+
+
+
+
+</web-map>
